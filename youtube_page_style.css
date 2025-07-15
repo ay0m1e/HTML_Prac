@@ -1,0 +1,40 @@
+.YouTube-Exercise{
+    font-family: Roboto, Arial, sans-serif;
+    background-color: rgb(249, 249, 249);
+}
+.video-preview{
+    width: 300px;
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: top;
+}
+.thumbnails{
+    width: 300px;
+    display: block;
+}
+
+.search-bar{
+  display: block;
+}
+
+.video-title{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+
+}
+
+.channel-name,
+.video-stats{
+    font-size: 12px;
+    color: rgb(96, 96, 96);
+}
+
+.channel-name{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.video-stats{
+    margin-top: 4px;
+}
+
