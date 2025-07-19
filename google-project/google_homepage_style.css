@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.thumbnails{
+    width: 700px;
+    
+}
+
+.search-bar{
+    width: 85%;
+    padding: 20px;
+    margin: 8px;
+    box-sizing: border-box;
+    border-radius: 60px;
+    border-color: rgb(131, 128, 128);
+    font-size: medium;
+}

@@ -2,15 +2,9 @@
     font-family: Roboto, Arial, sans-serif;
     background-color: rgb(249, 249, 249);
 }
-.video-preview{
-    width: 300px;
-    display: inline-block;
-    margin-left: 20px;
-    vertical-align: top;
-}
+
 .thumbnails{
-    width: 300px;
-    display: block;
+    width: 100%;
 }
 
 .search-bar{
@@ -38,3 +32,29 @@
     margin-top: 4px;
 }
 
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.channel-pics{
+    margin-top: 15px;
+    margin-bottom: 0px;
+    vertical-align: top;
+}
+
+.video-info{
+    vertical-align: top;
+}
+
+.profile-picture{
+    width: 40px;
+    border-radius: 50px;
+}
+
+.all-video-previews{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+}
