@@ -2,3 +2,8 @@
     font-family: Roboto, Arial, sans-serif;
     background-color: rgb(249, 249, 249);
 }
+
+body{
+    padding-top: 80px;
+    padding-left: 80px;
+}
