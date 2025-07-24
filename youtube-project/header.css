@@ -11,6 +11,7 @@
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: rgb(224, 219, 219);
+    z-index: 100;
     
 
 }
@@ -104,6 +105,26 @@
     height: 24px;
 }
 
+.notifications-icon-container{
+    position:relative
+}
+
+.notifications-count{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    background-color: rgb(146, 17, 17);
+    color: white;
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
 .youtube-apps-icon{
     height: 24px;
 
@@ -114,3 +135,4 @@
     border-radius: 16px;
 
 }
+
