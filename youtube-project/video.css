@@ -54,6 +54,23 @@
     row-gap: 40px;
 }
 
+@media (max-width: 850px){
+    .all-video-previews{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 851px) and (max-width: 999px) {
+    .all-video-previews{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (min-width: 1000px){
+    .all-video-previews{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
 .video-time{
     position: absolute;
     bottom: 10px;
